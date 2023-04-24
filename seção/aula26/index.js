@@ -37,5 +37,3 @@ num1 = (num1 * 100) + (num2 * 100); //0.8
 console.log(num1);
 console.log(NUmber.isInteger(num1));
 
-
-num1 = Number(num1.toFixed(2));
