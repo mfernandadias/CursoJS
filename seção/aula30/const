@@ -1,0 +1,14 @@
+/*
+const descreve uma variável que não pode ser reatribuída  
+(com o operador de atribuição = ). depois de cria-lá, não 
+podemos fazer algo assim: 
+const nome = 'Luiz'; 
+nosme = 'João' // erro: assisgment to constant variable
+
+Poré, existe uma diferençça entre variável e valor 
+variáveis são como um apelido para um valor, uma
+espécie de alias para mencionar algum valor salvo na memória 
+Já valores são dados que realmente ficam salcos na 
+memória e sustentam determinado tipo. Aunguns tipos de 
+valores
+*/
