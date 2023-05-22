@@ -1,4 +1,5 @@
-// condicao) ? 'Valor para verdadeira' 'Valor para falso' ;
+// (condicao) ? 'Valor para verdadeira' 'Valor para falso' ;
+//operação ternária
 
 const pontuacaoUSuario = 1000;
 const nivelUSuario = pontuacaoUSuario >= 1000 ? 'Usuário VIP': 'Usuário normal';  
