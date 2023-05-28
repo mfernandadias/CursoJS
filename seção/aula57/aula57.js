@@ -9,5 +9,5 @@ console.log(backgroundColorBody);
 for (let p of ps) {
     console.log(p);
     p.stylebackgroundColor = backgroundColorBody; 
-    p.style.color = '#FFFFFF';
+    //p.style.color = '#FFFFFF';
 }
