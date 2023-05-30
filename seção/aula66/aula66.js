@@ -1,0 +1,1 @@
+//criando um timer com setInterval
