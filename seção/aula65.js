@@ -12,6 +12,14 @@ function funcaoDoInterval() {
     console.log(mostraHora());
 }
 
-setInterval(function (){
+const timer = setInterval(function (){
     console.log(mostraHora());
 }, 1000);
+
+setTimeout(function() {
+    clearInterval(timer);
+}, 10000);
+
+setTimeout(function() {
+    console.log('Olá mundo!');
+}, 50000);
