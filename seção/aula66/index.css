@@ -37,7 +37,25 @@ form input {
     height: 50px; 
     padding: 0 20px; 
 }
+form button { 
+    border: none; 
+    background: var(--primary-color);
+    color: #fff; 
+    font-size: 18px; 
+    font-weight: 700;
+    height: 50px; 
+    cursor: pointer; 
+    margin-top: 30px;
+
+}
+
+form button:hover{ 
+    background: var(--primary-color-darker);
+}
 
 .relogio {
     font-size: 5em;
+}
+.pausado { 
+    color: red;
 }
