@@ -34,9 +34,34 @@ function criaTarefa(textoInput) {
     tarefas.appendChild(li);
     limpaInput();
     criaBotaoApagar(li);
+    savarTarefas();
 }
 
 btnTarefa.addEventListener('click', function () {
   if (!inputTarefa.value) return;
   criaTarefa(inputTarefa.value);
 });
+
+document.addEventListener('click', function(e) {
+    const el = e.target;
+    //console;log(el);
+
+    if (el.classList.contains('apagar')) {
+        console.log('Apagar clicado');
+    }
+});
+
+function salvarTarefas() {
+    const liTarefas = tarefas.querySelectorAll('li');
+    const listaDeTarefas = [];
+
+    for (let tarefa of listaDeTarefas) {
+        let tarefaTexto = tarefa.innerText;
+        tarefaTexto = tarefaTexto.replace('Apagar', '').trim();
+        //console.log(tarefaTexto);
+        listaDeTarefas.push(tarefaTexto);
+    }
+
+    const tarefasJSON = JSON.stringify(listaDeTarefas);
+    localStorage.setItem('tarefas', tarefasJSON);
+}
