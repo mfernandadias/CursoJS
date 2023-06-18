@@ -1,0 +1,42 @@
+/*Variáveis 
+o que são Variáveis: 
+Quando precisamos salvar temporariamente o nome que uma pessoa 
+colocou no formulário de contato, ou quando 
+salvar um valor para executar um cáculo, utilizamos variáveis. 
+
+No JavaScript, podemos declarar uma variável de três formas: */
+//var: Dreclara uma variável podendo atribuir um valor junto na sua criação 
+var umNumero; 
+var umNumero = 10;
+ //let: declara uma variável com escopo 
+ //de bloco (veremos sobre escopo de bloco mais adiante);
+ let outroNumero = 5;
+
+ //const : Declara uma variável apenas de leitura. Após atribuir um valor a 
+ //uma const, não será possível altera-lo: 
+ const ola = "Olá Mundo";
+
+ //IMPORTE! 
+ //Apesar de ainda ser muito utilizado, var não é mais recomendado pelas boas 
+ //práticas de programação. 
+
+ //sobre os nomes das variáveis: 
+ //Case-Sensitive: O JavaScript diferencia entre letras maiúsculas e minúsculas.  
+ //NOME é diferente de nome 
+ let nome = "Paulo";
+ let NOME = "Alexandre";
+
+ //Catareres válidos 
+ //letras: Você pode usar letras maiúsculas e minúsculas, mas evite cedilha 
+ //e acentuação. 
+ let NomeComprador = "João Silva";
+
+ //número: desde que a variável comece com 1 letra, você pode usar números
+ //na definição. 
+ let carro2000 = 123; 
+ let w3c = "https://www.w3.org";
+
+ //underline "_" e cifrão "$": são permitidos em qualquer posição e são mais  
+ //usados nas variáveis de biblitecas e frameworks.NOME
+ let_variavel = 99; 
+ let $www = true;
