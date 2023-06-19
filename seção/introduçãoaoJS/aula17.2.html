@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exmplo3</title>
+</head>
+<body>
+    <script>
+        let objeto = {
+            objeto2 : {
+                vetor : [1, 2, {valor: 55}]
+            }
+        };
+
+        //qual opção exibira o valor 55? 
+        console.log(objeto["objeto2"].vetor.valor);
+
+        console.log(objeto.objeto2.vetor.valor);
+
+        consoel.log(objeto["objeto"]["vetor"][2].valor);
+
+        console.log(objeto.objeto2.vetor[3].valor);
+    </script>
+    
+</body>
+</html>
