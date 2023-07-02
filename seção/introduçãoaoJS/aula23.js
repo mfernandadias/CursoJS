@@ -19,7 +19,7 @@ switch(codigo) {
 comparações de um valor. 
 */
 
-/* Case: como você pode ver pelo wxemplo, para cada possibilidade, é 
+/* Case: como você pode ver pelo exemplo, para cada possibilidade, é 
 necessário termos um "case". */
 
 /* break: o comando "break" serve para encerrar a leitura do switch. Sem 
