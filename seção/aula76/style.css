@@ -59,3 +59,25 @@ form button:hover{
 .pausado { 
     color: red;
 }
+
+.display {
+    font-size: 2em; 
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px; 
+    font-size: 1em; 
+    border: none; 
+    background: #dfdfdf;
+}
+
+.btn:hover {
+    background: #916c96;
+}
+
+.btn-eq{
+   background: rgb(238, 174, 240); 
+}
