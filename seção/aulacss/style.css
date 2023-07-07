@@ -7,7 +7,6 @@
     grid-template-rows: 300px 300px 300px;
     gap: 20px;
     grid-template-areas: "green yellow"
-    "pink blue"
     "red blue";
 }
 
@@ -18,7 +17,7 @@ div {
 
 .red {
     background-color: red; 
-    /*grid-area: red;*/
+    grid-area: red;
 }
 
 .blue {
