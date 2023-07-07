@@ -1,4 +1,4 @@
-function criaCalculadora() {
+/*function criaCalculadora() {
     return {
         display: document.querySelector('.display'),
         btnClear: document.querySelector('.btn-clear'),
@@ -7,9 +7,9 @@ function criaCalculadora() {
             
         }
 
-        inicia() {
-            this.cliqueBotoes();
-        },
+       // inicia() {
+       //     this.cliqueBotoes();
+       // },
 
         cliqueBotoes() {
             //this --> calculadora 
@@ -25,7 +25,7 @@ function criaCalculadora() {
             this.display.value += valor;
         }
     };
-}
+} 
 
 const calculadora = criaCalculadora();
-calculadora.inicia();
+calculadora.inicia(); */
