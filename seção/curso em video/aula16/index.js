@@ -25,8 +25,8 @@ function fatorial(n) {
 console.log(fatorial(5)) */
 
 //recursividade
-function fatorial(n) {
+/*function fatorial(n) {
     if (n == 1)
-}
+} */
 
 
