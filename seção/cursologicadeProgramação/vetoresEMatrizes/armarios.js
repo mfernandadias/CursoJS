@@ -11,4 +11,5 @@ let timePokemon = [
 
 /*console.log("O pokemon " + timePokemon[1][0] + " é do sexo " + timePokemon[1])*/
 
+//principais metodos de matrizes
 console.log(timePokemon.length)
