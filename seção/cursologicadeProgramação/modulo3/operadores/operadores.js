@@ -1,0 +1,11 @@
+let idade = 30
+
+//console.log(idade)
+
+idade = 30 + 6
+console.log(idade)
+
+//código é sequencial 
+
+let calculo = 10 % 3
+console.log(calculo)
