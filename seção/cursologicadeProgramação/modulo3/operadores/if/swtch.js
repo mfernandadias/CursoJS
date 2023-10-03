@@ -1,7 +1,7 @@
 // estrutura de decisão 
 //switch/case/default 
 
-let fruta = "banana"
+let fruta = "pera"
 
 switch (fruta) {
     case "laranja":
@@ -15,4 +15,7 @@ switch (fruta) {
     case "maça":
     console.log("suco de maça")
     break
+
+    default: 
+    console.log("suco genérico")
 }
