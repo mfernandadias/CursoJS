@@ -1,0 +1,8 @@
+function enciarDados() {
+    let nomeDoBanco = "banco-de-dados"
+    console.log("Salvando dados em : " + nomedoBanco)
+
+    if (3 === 3 ){
+        console.log("senha validada")
+    }
+}
